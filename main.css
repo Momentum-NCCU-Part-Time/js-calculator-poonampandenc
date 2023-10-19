@@ -1,0 +1,76 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+
+}
+.container
+{
+    display:flex;
+    height: 508px;
+    width: 406px;
+    background-color: lightgreen;
+}
+.calculator
+{
+    border-color: greenyellow;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style-type: none;
+    grid-gap: 2px;
+    }
+
+button
+{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(17, 218, 17);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+    justify-content: center;
+    border-style: none;
+    color: brown;
+    }
+
+#display
+{
+    box-sizing: border-box;
+    border-color: rgb(34, 243, 34);
+    grid-column: span 3;
+    background-color: rgb(17, 218, 17);
+}
+
+#clearkey
+{
+    
+    background-color: rgb(17, 218, 17);
+    
+}
+
+.numkeys
+{
+    background-color: rgb(17, 218, 17);
+    
+}
+
+.mathkeys
+{
+    background-color: greenyellow;
+    
+}
+
+.answerkey
+{
+    background-color: rgb(17, 218, 17);
+    
+}
+
+.decimalkey
+{
+    background-color: rgb(17, 218, 17);
+    
+}
