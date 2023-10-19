@@ -1,7 +1,7 @@
 {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 html
@@ -22,7 +22,7 @@ html
     grid-template-columns: repeat(4, 1fr);
     list-style-type: none;
     grid-gap: 2px;
-    }
+}
 
 button
 {
@@ -34,43 +34,50 @@ button
     justify-content: center;
     border-style: none;
     color: brown;
+    cursor: pointer;
+}
+
+    .button:hover 
+    {
+        background-color: #323330;
+        color: white;
+        transition: 0.5s ease-in-out;
     }
 
 #display
 {
-    box-sizing: border-box;
-    border-color: rgb(34, 243, 34);
+    padding: 30px;
+    margin-right: 2px;
+    border: solid 1px brown;
+    /* border-color: rgb(34, 243, 34); */
     grid-column: span 3;
     background-color: rgb(17, 218, 17);
+    text-align: right;
+    color: brown;
+    font-size: 33px;
 }
 
 #clearkey
 {
-    
-    background-color: rgb(17, 218, 17);
-    
+    background-color: rgb(17, 218, 17);    
 }
 
 .numkeys
 {
-    background-color: rgb(17, 218, 17);
-    
+    background-color: rgb(17, 218, 17);    
 }
 
 .mathkeys
 {
-    background-color: greenyellow;
-    
+    background-color: greenyellow;    
 }
 
-.answerkey
+#answerkey
 {
-    background-color: rgb(17, 218, 17);
-    
+    background-color: rgb(17, 218, 17);    
 }
 
 .decimalkey
 {
-    background-color: rgb(17, 218, 17);
-    
+    background-color: rgb(17, 218, 17);    
 }
