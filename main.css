@@ -30,7 +30,7 @@ button
     width: 100px;
     background-color: rgb(17, 218, 17);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 33px;
+    font-size: 50px;
     justify-content: center;
     border-style: none;
     color: brown;
@@ -46,20 +46,20 @@ button
 
 #display
 {
-    padding: 30px;
+    padding: 20px;
     margin-right: 2px;
-    border: solid 1px brown;
+    /* border: solid 1px brown; */
     /* border-color: rgb(34, 243, 34); */
     grid-column: span 3;
-    background-color: rgb(17, 218, 17);
+    background-color: rgb(241, 210, 143);
     text-align: right;
     color: brown;
-    font-size: 33px;
+    font-size:50px;
 }
 
 #clearkey
 {
-    background-color: rgb(17, 218, 17);    
+    background-color: rgb(17, 218, 201);    
 }
 
 .numkeys
@@ -74,7 +74,7 @@ button
 
 #answerkey
 {
-    background-color: rgb(17, 218, 17);    
+    background-color: rgb(215, 218, 17);    
 }
 
 .decimalkey
